@@ -1,0 +1,36 @@
+{
+  "name": "yangview",
+  "version": "1.0.0",
+  "description": "Access the Yang models and prettify",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hrish1/yangview.git"
+  },
+  "keywords": [
+    "yang",
+    "REST",
+    "ODL"
+  ],
+  "author": "Hrishav Mukherjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hrish1/yangview/issues"
+  },
+  "homepage": "https://github.com/Hrish1/yangview#readme",
+  "preferGlobal": true,
+  "bin": {
+    "yangview": "./server.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "commander": "^2.16.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^6.0.0",
+    "request": "^2.87.0"
+  }
+}
